@@ -25,8 +25,8 @@ bash change_voice.sh <speech_template_path.mp3> <reference_voice_path.mp3> <outp
 
 Voice -> Text -> Voice
 
-Use speech recognition module (TextToSpeech -- TTS) from Mozilla ([DeepSpeech architecture](https://github.com/mozilla/DeepSpeech)) to translate 
-voice into text, then apply [Real Time Voice Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) (SpeechToText -- STT)
+Use speech recognition module (SpeechToText -- STT) from Mozilla ([DeepSpeech architecture](https://github.com/mozilla/DeepSpeech)) to translate 
+voice into text, then apply [Real Time Voice Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) (TextToSpeech -- TTS)
 to synthesize speech with specified voice.
 
 ## Advantages
