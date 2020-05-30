@@ -1,6 +1,6 @@
-from TextToSpeech.synthesizer.synthesize import run_synthesis
-from TextToSpeech.synthesizer.hparams import hparams
-from TextToSpeech.utils.argutils import print_args
+from synthesizer.synthesize import run_synthesis
+from synthesizer.hparams import hparams
+from utils.argutils import print_args
 import argparse
 import os
 

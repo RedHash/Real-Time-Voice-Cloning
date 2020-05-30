@@ -1,5 +1,5 @@
-from TextToSpeech.encoder import preprocess_librispeech, preprocess_voxceleb1, preprocess_voxceleb2
-from TextToSpeech.utils.argutils import print_args
+from encoder.preprocess import preprocess_librispeech, preprocess_voxceleb1, preprocess_voxceleb2
+from utils.argutils import print_args
 from pathlib import Path
 import argparse
 

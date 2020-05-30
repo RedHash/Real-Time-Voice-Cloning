@@ -1,8 +1,8 @@
-from TextToSpeech.synthesizer.utils.text import text_to_sequence
-from TextToSpeech.synthesizer.infolog import log
-from TextToSpeech.synthesizer import create_model
-from TextToSpeech.synthesizer.utils import plot
-from TextToSpeech.synthesizer import audio
+from synthesizer.utils.text import text_to_sequence
+from synthesizer.infolog import log
+from synthesizer.models import create_model
+from synthesizer.utils import plot
+from synthesizer import audio
 import tensorflow as tf
 import numpy as np
 import os

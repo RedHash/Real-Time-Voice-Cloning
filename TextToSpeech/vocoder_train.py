@@ -1,5 +1,5 @@
-from TextToSpeech.utils.argutils import print_args
-from TextToSpeech.vocoder.train import train
+from utils.argutils import print_args
+from vocoder.train import train
 from pathlib import Path
 import argparse
 

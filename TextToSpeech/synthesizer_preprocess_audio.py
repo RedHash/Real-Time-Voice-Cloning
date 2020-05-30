@@ -1,6 +1,6 @@
-from TextToSpeech.synthesizer.preprocess import preprocess_librispeech
-from TextToSpeech.synthesizer.hparams import hparams
-from TextToSpeech.utils.argutils import print_args
+from synthesizer.preprocess import preprocess_librispeech
+from synthesizer.hparams import hparams
+from utils.argutils import print_args
 from pathlib import Path
 import argparse
 

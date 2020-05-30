@@ -1,5 +1,5 @@
-from TextToSpeech.synthesizer.preprocess import create_embeddings
-from TextToSpeech.utils.argutils import print_args
+from synthesizer.preprocess import create_embeddings
+from utils.argutils import print_args
 from pathlib import Path
 import argparse
 

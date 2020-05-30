@@ -1,6 +1,6 @@
 from pathlib import Path
-from TextToSpeech.toolbox import Toolbox
-from TextToSpeech.utils.argutils import print_args
+from toolbox import Toolbox
+from utils.argutils import print_args
 import argparse
 
 

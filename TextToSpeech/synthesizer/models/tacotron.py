@@ -1,11 +1,12 @@
-from TextToSpeech.synthesizer import symbols
-from TextToSpeech.synthesizer.infolog import log
-from TextToSpeech.synthesizer.models.helpers import TacoTrainingHelper, TacoTestHelper
-from TextToSpeech.synthesizer.models.modules import *
+import tensorflow as tf
+from synthesizer.utils.symbols import symbols
+from synthesizer.infolog import log
+from synthesizer.models.helpers import TacoTrainingHelper, TacoTestHelper
+from synthesizer.models.modules import *
 from tensorflow.contrib.seq2seq import dynamic_decode
-from TextToSpeech.synthesizer import TacotronEncoderCell, TacotronDecoderCell
-from TextToSpeech.synthesizer.models.custom_decoder import CustomDecoder
-from TextToSpeech.synthesizer.models.attention import LocationSensitiveAttention
+from synthesizer.models.architecture_wrappers import TacotronEncoderCell, TacotronDecoderCell
+from synthesizer.models.custom_decoder import CustomDecoder
+from synthesizer.models.attention import LocationSensitiveAttention
 
 import numpy as np
 

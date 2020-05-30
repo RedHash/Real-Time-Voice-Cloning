@@ -1,6 +1,8 @@
-from TextToSpeech.encoder import SpeakerEncoder
+from encoder.params_data import *
+from encoder.model import SpeakerEncoder
+from encoder.audio import preprocess_wav   # We want to expose this function from here
 from matplotlib import cm
-from TextToSpeech.encoder import audio
+from encoder import audio
 from pathlib import Path
 import matplotlib.pyplot as plt
 import numpy as np

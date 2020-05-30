@@ -1,12 +1,10 @@
-from TextToSpeech.synthesizer import symbols
-from TextToSpeech.synthesizer.utils.text import sequence_to_text
-from TextToSpeech.synthesizer.hparams import hparams_debug_string
-from TextToSpeech.synthesizer.feeder import Feeder
-from TextToSpeech.synthesizer import create_model
-from TextToSpeech.synthesizer import ValueWindow
-from TextToSpeech.synthesizer.utils import plot
-from TextToSpeech.synthesizer import audio
-from TextToSpeech.synthesizer import infolog
+from synthesizer.utils.symbols import symbols
+from synthesizer.utils.text import sequence_to_text
+from synthesizer.hparams import hparams_debug_string
+from synthesizer.feeder import Feeder
+from synthesizer.models import create_model
+from synthesizer.utils import ValueWindow, plot
+from synthesizer import infolog, audio
 from datetime import datetime
 from tqdm import tqdm
 import tensorflow as tf

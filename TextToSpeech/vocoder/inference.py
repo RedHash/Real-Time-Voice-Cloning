@@ -1,5 +1,5 @@
-from TextToSpeech.vocoder.models.fatchord_version import WaveRNN
-from TextToSpeech.vocoder import hparams as hp
+from vocoder.models.fatchord_version import WaveRNN
+from vocoder import hparams as hp
 import torch
 
 

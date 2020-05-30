@@ -1,7 +1,7 @@
-from TextToSpeech.synthesizer.hparams import hparams
-from TextToSpeech.synthesizer.train import tacotron_train
-from TextToSpeech.utils.argutils import print_args
-from TextToSpeech.synthesizer import infolog
+from synthesizer.hparams import hparams
+from synthesizer.train import tacotron_train
+from utils.argutils import print_args
+from synthesizer import infolog
 import argparse
 import os
 

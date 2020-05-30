@@ -1,10 +1,10 @@
 from multiprocessing.pool import Pool 
-from TextToSpeech.synthesizer import audio
+from synthesizer import audio
 from functools import partial
 from itertools import chain
-from TextToSpeech.encoder import inference as encoder
+from encoder import inference as encoder
 from pathlib import Path
-from TextToSpeech.utils import logmmse
+from utils import logmmse
 from tqdm import tqdm
 import numpy as np
 import librosa

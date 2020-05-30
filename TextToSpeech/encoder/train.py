@@ -1,7 +1,8 @@
-from TextToSpeech.encoder import Visualizations
-from TextToSpeech.encoder.data_objects import SpeakerVerificationDataLoader, SpeakerVerificationDataset
-from TextToSpeech.encoder import SpeakerEncoder
-from TextToSpeech.utils.profiler import Profiler
+from encoder.visualizations import Visualizations
+from encoder.data_objects import SpeakerVerificationDataLoader, SpeakerVerificationDataset
+from encoder.params_model import *
+from encoder.model import SpeakerEncoder
+from utils.profiler import Profiler
 from pathlib import Path
 import torch
 

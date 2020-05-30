@@ -1,5 +1,5 @@
-from TextToSpeech.utils.argutils import print_args
-from TextToSpeech.encoder import train
+from utils.argutils import print_args
+from encoder.train import train
 from pathlib import Path
 import argparse
 
